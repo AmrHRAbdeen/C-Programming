@@ -46,7 +46,8 @@ int main() {
 	U2.u_doubleValue = 805.12;
 	Result = add(U1, U2, DOUBLE);
 	printf("Double Addition result is : %lf \n", Result.u_doubleValue);
-	getchar();
+	// Uncomment if you're using VS
+	//getchar();
 	return 0;
 }
 
