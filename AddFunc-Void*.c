@@ -1,21 +1,6 @@
 #include <stdio.h>
 enum dataType {INT,FLOAT,DOUBLE };
-void add(void* val1 , void* val2 ,void*result,enum dataType type){
-	switch(type)
-	{
-		case INT:
-			*(int*)result = *(int*)val1+*(int*)val2;
-			break;
-		case FLOAT:
-			*(float*)result = *(float*)val1+*(float*)val2;
-			break;
-		case DOUBLE:
-			*(double*)result = *(double*)val1+*(double*)val2;
-			break;
-	}
-
-}
-
+void add(void* val1 , void* val2 ,void*result,enum dataType type);
 int main(){
 	// INT data type
 	int a =50;
@@ -35,8 +20,6 @@ int main(){
 	void*fpresult=&fresult;
 	add(fpa,fpb,fpresult,FLOAT);
 	printf("Result is : %f \n",fresult);
-
-
 	//Double Data Type
 	double da =50.663;
 	double db =500.3368;
@@ -47,4 +30,19 @@ int main(){
 	add(dpa,dpb,dpresult,DOUBLE);
 	printf("Result is : %lf \n",dresult);
 	return 0;
+}
+void add(void* val1 , void* val2 ,void*result,enum dataType type){
+	switch(type)
+	{
+		case INT:
+			*(int*)result = *(int*)val1+*(int*)val2;
+			break;
+		case FLOAT:
+			*(float*)result = *(float*)val1+*(float*)val2;
+			break;
+		case DOUBLE:
+			*(double*)result = *(double*)val1+*(double*)val2;
+			break;
+	}
+
 }
