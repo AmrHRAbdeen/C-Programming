@@ -15,21 +15,21 @@ struct value add(struct value val1, struct value val2, enum dataType type)
 {
 	struct value result;
 	switch (type) {
-	case INT:
-	{
-		result.u_intValue = val1.u_intValue + val2.u_intValue;
-	}
-	break;
-	case FLOAT:
-	{
-		result.u_floatValue = val1.u_floatValue + val2.u_floatValue;
-	}
-	break;
-	case DOUBLE:
-	{
-		result.u_doubleValue = val1.u_doubleValue + val2.u_doubleValue;
-	}
-	break;
+		case INT:
+		{
+			result.u_intValue = val1.u_intValue + val2.u_intValue;
+		}
+		break;
+		case FLOAT:
+		{
+			result.u_floatValue = val1.u_floatValue + val2.u_floatValue;
+		}
+		break;
+		case DOUBLE:
+		{
+			result.u_doubleValue = val1.u_doubleValue + val2.u_doubleValue;
+		}
+		break;
 	}
 	return result;
 }
