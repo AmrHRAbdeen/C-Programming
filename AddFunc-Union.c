@@ -37,8 +37,8 @@ int main() {
 	Result = add(U1, U2, INT);
 	printf("Integer Addition result is : %d \n", Result.u_intValue);
 	//FLOAT data type
-	U1.u_floatValue = 50.2;
-	U2.u_floatValue = 67.5;
+	U1.u_floatValue = 50.2f; // or (float)50.2
+	U2.u_floatValue = 67.5f; // or (float)67.5
 	Result = add(U1, U2, FLOAT);
 	printf("Float Addition result is : %f \n", Result.u_floatValue);
 	//DOUBLE data Type
