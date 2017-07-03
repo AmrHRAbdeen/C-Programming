@@ -3,7 +3,8 @@ Author : Amr Abdeen
 About :One function to add various data types using structures.   
 */
 #include <stdio.h>
-#include <conio.h>
+//Uncomment if you're using VS
+//#include <conio.h> 
 enum dataType { INT, FLOAT, DOUBLE };
 struct value
 {
