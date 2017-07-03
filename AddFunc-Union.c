@@ -1,6 +1,6 @@
 /*
 Author : Amr Abdeen
-About :One function to add various data types using structures.   
+About :One function to add various data types using Unions.   
 */
 #include <stdio.h>
 #include <conio.h>
