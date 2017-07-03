@@ -14,22 +14,23 @@ union value
 union value add(union value val1, union value val2, enum dataType type)
 {
 	union value result;
-	switch (type) {
-	case INT:
+	switch (type) 
 	{
-		result.u_intValue = val1.u_intValue + val2.u_intValue;
-	}
-	break;
-	case FLOAT:
-	{
-		result.u_floatValue = val1.u_floatValue + val2.u_floatValue;
-	}
-	break;
-	case DOUBLE:
-	{
-		result.u_doubleValue = val1.u_doubleValue + val2.u_doubleValue;
-	}
-	break;
+		case INT:
+		{
+			result.u_intValue = val1.u_intValue + val2.u_intValue;
+		}
+		break;
+		case FLOAT:
+		{
+			result.u_floatValue = val1.u_floatValue + val2.u_floatValue;
+		}
+		break;
+		case DOUBLE:
+		{
+			result.u_doubleValue = val1.u_doubleValue + val2.u_doubleValue;
+		}
+		break;
 	}
 	return result;
 }
