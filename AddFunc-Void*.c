@@ -3,7 +3,8 @@ Author : Amr Abdeen
 About :One function to add various data types using structures.
 **Pros and Cons of this Method:
 -->Pros:
-	- Functionality is The best one as it depends on passing by reference so the code size is smaller than the other two methods. 
+	- Functionality:The best one;as it depends on passing by reference so the code size is smaller than the other two methods and 
+			the process is fast.
 -->Cons:
 	-Not Found.
 */
