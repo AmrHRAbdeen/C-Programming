@@ -1,3 +1,12 @@
+/*
+Author : Amr Abdeen
+About :One function to add various data types using structures.
+**Pros and Cons of this Method:
+-->Pros:
+	- Functionality is The best one as it depends on passing by reference so the code size is smaller than the other two methods. 
+-->Cons:
+	-Not Found.
+*/
 #include <stdio.h>
 enum dataType {INT,FLOAT,DOUBLE };
 void add(void* val1 , void* val2 ,void*result,enum dataType type);
