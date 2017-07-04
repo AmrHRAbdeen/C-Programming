@@ -3,14 +3,17 @@ Author : Amr Abdeen
 About :One function to add various data types using structures.
 **Pros and Cons of this Method:
 -->Pros:
-	- Functionality:The best one;as it depends on passing by reference so the code size is smaller than the other two methods and 
-			the process is fast.
+	- Functionality:The best one;as it depends on passing by reference so the code size is smaller and the process is faster 
+			than the other two methods.
 -->Cons:
 	-Not Found.
 */
 #include <stdio.h>
+// enum:makes the code more readable
 enum dataType {INT,FLOAT,DOUBLE };
+// Add function prototype
 void add(void* val1 , void* val2 ,void*result,enum dataType type);
+//main function
 int main(){
 	// INT data type
 	int a =50;
@@ -18,7 +21,7 @@ int main(){
 	int result;
 	void* PTR_a= &a;
 	void* PTR_b= &b;
-	void* PTR_presult= &result;
+	void* PTR_result= &result;
 	add(PTR_a,PTR_b,PTR_result,INT);
 	printf("Result is : %d \n",result);
 	//FLOAT data Type
@@ -38,9 +41,10 @@ int main(){
 	void* DPTR_b=&double_b;
 	void* DPTR_result=&double_result;
 	add(DPTR_a,DPTR_b,DPTR_result,DOUBLE);
-	printf("Result is : %lf \n",dresult);
+	printf("Result is : %lf \n",double_result);
 	return 0;
 }
+// Add function definition
 void add(void* val1 , void* val2 ,void*result,enum dataType type){
 	switch(type)
 	{
