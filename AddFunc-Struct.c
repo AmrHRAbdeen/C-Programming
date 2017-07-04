@@ -3,7 +3,7 @@ Author : Amr Abdeen
 About :One function to add various data types using structures.
 **Pros and Cons of this Method:
 -->Pros:
-	- Functionality is OK
+	- Functionality:OK
 -->Cons:
 	-Takes a large storage as each attribute/member in the structure has its own size which will produce a large size of each structure entity. 	
 	-It depends on passing by value:
