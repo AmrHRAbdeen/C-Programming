@@ -16,28 +16,28 @@ int main(){
 	int a =50;
 	int b =500;
 	int result;
-	void*pa=&a;
-	void*pb=&b;
-	void*presult=&result;
-	add(pa,pb,presult,INT);
+	void* PTR_a= &a;
+	void* PTR_b= &b;
+	void* PTR_presult= &result;
+	add(PTR_a,PTR_b,PTR_result,INT);
 	printf("Result is : %d \n",result);
 	//FLOAT data Type
-	float fa =50.5;
-	float fb =500.66;
-	float fresult;
-	void*fpa=&fa;
-	void*fpb=&fb;
-	void*fpresult=&fresult;
-	add(fpa,fpb,fpresult,FLOAT);
-	printf("Result is : %f \n",fresult);
+	float float_a =50.5;
+	float float_b =500.66;
+	float float_result;
+	void* FPTR_a= &float_a;
+	void* FPTR_b= &float_b;
+	void* FPTR_result= &float_result;
+	add(FPTR_a,FPTR_b,FPTR_result,FLOAT);
+	printf("Result is : %f \n",float_result);
 	//Double Data Type
-	double da =50.663;
-	double db =500.3368;
-	double dresult;
-	void*dpa=&da;
-	void*dpb=&db;
-	void*dpresult=&dresult;
-	add(dpa,dpb,dpresult,DOUBLE);
+	double double_a =50.663;
+	double double_b =500.3368;
+	double double_result;
+	void* DPTR_a=&double_a;
+	void* DPTR_b=&double_b;
+	void* DPTR_result=&double_result;
+	add(DPTR_a,DPTR_b,DPTR_result,DOUBLE);
 	printf("Result is : %lf \n",dresult);
 	return 0;
 }
