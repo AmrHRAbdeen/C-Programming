@@ -6,7 +6,6 @@ About :One function to add various data types using Unions.
 	- Functionality:OK [ better than structure method ]
 -->Cons: 	
 	-It depends on passing by value:
-		-which will produce a relatively large code size.
 		-Takes a relatively long time as it will copy the contents of the input parameters to the stack of the add function in memory.
 */
 #include <stdio.h>
