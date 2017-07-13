@@ -22,9 +22,10 @@ void printStack();
 struct SNode* top_PTR = NULL;
 
 int main() {
-	printf("How many numbers you want to insert in the list:");
+	
 	int n,i,x;
 	char choose;
+	printf("How many numbers you want to insert in the list:");
 	fflush(stdin); fflush(stdout);
 	scanf("%d",&n);
 	for(i=0;i<n;i++) {
