@@ -21,29 +21,29 @@ void printStack();
 //Global Pointer for Stack top
 struct SNode* top_PTR = NULL;
 
-
 int main() {
 	printf("How many numbers you want to insert in the list:");
 	int n,i,x;
 	char choose;
 	fflush(stdin); fflush(stdout);
 	scanf("%d",&n);
-	for(i=0;i<n;i++){
+	for(i=0;i<n;i++) {
 		printf("Enter the numbers:");
 		fflush(stdin); fflush(stdout);
 		scanf("%d",&x);
 		push(x);
-	 }
-		printStack();
-		do{
-		printf("Press Y to start deleting Elements or any other letter to exit\n");
-		fflush(stdin); fflush(stdout);
-		scanf("%c",&choose);
-		 if (choose=='Y' || choose=='y') pop();
-		 else exit(1);
-		 printStack();
-		} while(1);
+	}
+	printStack();
+	do {
+	    printf("Press Y to start deleting Elements or any other letter to exit\n");
+	    fflush(stdin); fflush(stdout);
+	    scanf("%c",&choose);
+	    if (choose=='Y' || choose=='y') pop();
+	    else exit(1);
+	    printStack();
+	}   while(1);
 }
+
 //Pushing data at the beginning of the list (LIFO)
 void push(int data){
 	struct SNode* node_PTR=(struct SNode*)malloc(sizeof(struct SNode));
