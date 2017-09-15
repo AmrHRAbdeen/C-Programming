@@ -3,7 +3,7 @@ Author : Amr Abdeen
 About :One function to add various data types using Unknown pointer.
 **Pros and Cons of this Method:
 -->Pros:
-	- Functionality:The best one;as it depends on passing by reference so the code size is smaller and the process is faster
+	- Functionality:The best one;as it depends on passing by reference so the process is faster
 			than the other two methods.
 -->Cons:
 	-Not Found.
