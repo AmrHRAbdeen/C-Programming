@@ -15,8 +15,8 @@ typedef unsigned char u8;
 
 #define CHAR_BIT 8
 
-/**************************Defintion of circular shift Function*********************************
-    Takes the variable , amount of shift and returns the new shifted and circulated variable
+/**************************Defintion of Circular Left Shift Function*********************************
+    -Takes the variable , amount of left shift and returns the new shifted and circulated variable
     
 /********************************************************************************************/
 
