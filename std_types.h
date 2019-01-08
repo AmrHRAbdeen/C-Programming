@@ -1,10 +1,14 @@
-/*
-************************************
-Standard Data Types
-Check for every tool chain first...
-Author @ Amr Abdeen
-************************************
-*/
+/************************************************************/
+/*  Standard Type Definitions according to GCC tool chain   */
+/*      The size of each data type depends on HW            */
+/*		       you may want to change it according            */
+/*                to your tool chain                        */
+/*                                                          */ 
+/*		              Author: Amr Abdeen	                    */
+/************************************************************/
+
+/*****Header file Guard****/
+
 #ifndef STD_TYPES_H_INCLUDED
 #define STD_TYPES_H_INCLUDED
 
