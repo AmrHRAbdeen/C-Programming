@@ -1,10 +1,9 @@
 /************************************************************/
 /*  Standard Type Definitions according to GCC tool chain   */
 /*      The size of each data type depends on HW            */
-/*		       you may want to change it according            */
-/*                to your tool chain                        */
-/*                                                          */ 
-/*		              Author: Amr Abdeen	                    */
+/*		you may want to change it                   */
+/*                                                          */
+/*		Author: Amr Abdeen	                    */
 /************************************************************/
 
 /*****Header file Guard****/
