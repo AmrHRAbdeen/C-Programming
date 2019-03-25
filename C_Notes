@@ -32,3 +32,6 @@ int main(void)
 	return 0;
 }
 =================================================================================================================
+*Unitialized Static Variables are intialized with ZERO by default.
+
+static int A; /* A is stored in Unitialized Read/Write Data Memory Segement With 0 as intial value */
