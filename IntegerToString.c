@@ -7,7 +7,6 @@ void intToStr(int num , char * str)
 {
 	int strLength=0;
 	int i=0;
-	char temp;
 	while(num>0)
 	{
 		*str='0'+(num%10);
