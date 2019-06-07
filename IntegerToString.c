@@ -42,5 +42,6 @@ void main(void)
 {
 	char str[10];
 	intToStr(1234,str);
+	revStr(str);
 	printf("String is %s \n",str);
 }
